@@ -1,0 +1,123 @@
+### Configuration file for i3status
+## http://i3wm.org/i3status/
+
+
+###################
+# GENERAL OPTIONS #
+###################
+
+general {
+    colors = false
+    interval = 1
+}
+
+###################
+# START AND ORDER #
+###################
+
+#order += "cpu_temperature 0"
+order += "cpu_usage"
+order += "memory"
+order += "disk /"
+order += "wireless wlp36s0"
+#order += "ethernet enp0s25"
+#order += "ethernet enp0s29u1u2"
+order += "battery 0"
+order += "volume master"
+order += "time"
+
+
+###################
+# SENSORS SETTING #
+###################
+
+
+##CPU temperature
+cpu_temperature 0 {
+        format = "Temp: %degrees °C"
+        path = "/sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input"
+}
+
+
+## CPU sensor
+cpu_usage {
+    format = "CPU %usage "
+}
+
+# RAM Usage
+memory {
+	format = " RAM %used/%total "
+}
+
+## system load sensor
+load {
+    format = "%1min"
+}
+
+## HDD sensor
+disk "/" {
+    format = " SSD %free FREE "
+}
+
+
+## audio volume sensor
+volume master {
+    format = " ♪: %volume "
+    format_muted = " MUTED "
+    device = "default"
+    mixer = "Master"
+    mixer_idx = 0
+}
+
+## time format
+time {
+    format = " %m.%d.%Y %H:%M "
+}
+
+########################################################################
+### The rest is not selected add it to the top at start and order
+########################################################################
+
+## ethernet sensor
+ethernet enp0s25 {
+    # if you use %speed, i3status requires root privileges shows only if you have a 1000Mbit/s after ip adress)
+    #format_up = "E: %ip (%speed)"
+    format_up = " LAN %ip "
+	format_down = " NO LAN "
+}
+
+ethernet enp0s29u1u2 {
+  format_up = " MODEM %ip "
+  format_down = " NO MODEM "
+}
+
+## VPN sensor
+run_watch VPN {
+    pidfile = "/var/run/vpnc/pid"
+}
+
+## wlan sensor
+wireless wlp36s0 {
+    format_up = " WLAN %ip "
+    format_down = " NO WLAN "
+}
+
+
+## battery sensor
+battery 0 {
+    format = " %status %percentage T%remaining "
+    format_down = " NO BAT "
+    status_full = "FULL"
+    last_full_capacity = true
+}
+
+## DHCP sensor
+run_watch DHCP {
+    pidfile = "/var/run/dhclient*.pid"
+}
+
+
+## HDD sensor
+disk "/home" {
+    format = "%free"
+}

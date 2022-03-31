@@ -1,0 +1,34 @@
+" Relative numbering and syntax hilighting
+set number
+set relativenumber
+syntax on
+
+set fillchars+=vert:\ 
+
+set linebreak
+
+" Automatic indentation and preference to spaces over tabs
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set autoindent
+
+" VIM PLUG
+call plug#begin('~/.vim/plugged')
+
+" Nerd Tree
+call plug#begin()
+  Plug 'preservim/nerdtree'
+call plug#end()
+
+" Start NERDTree. If a file is specified, move the cursor to its window.
+let g:NERDTreeWinPos = "right"
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
+" Close NERDTree if it is the last buffer
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" Vim COC (Intelligent Code Auto Completion)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+

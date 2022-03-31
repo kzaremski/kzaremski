@@ -1,0 +1,7 @@
+URxvt.font: xft:JetBrains Mono:size=10
+
+URxvt.foreground: #ffffff
+URxvt.scrollBar: false
+URxvt.background: #0E0E0E
+
+Xcursor.size: 16

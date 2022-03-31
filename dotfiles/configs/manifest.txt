@@ -1,0 +1,10 @@
+termite ~/.config/termite/config
+i3 ~/.config/i3/config
+i3exit.sh ~/.config/i3/scripts/i3exit.sh
+vimrc ~/.vimrc
+i3status ~/.config/i3/i3status.conf
+htoprc ~/.config/htop/htoprc
+compton ~/.config/compton/compton.conf
+xresources ~/.Xresources
+alacritty ~/.config/alacritty/alacritty.yml
+zsh ~/.zshrc
