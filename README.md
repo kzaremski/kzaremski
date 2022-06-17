@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+- 🌱 I’m currently pursuing a Bachelor's degree in computer science.
+
 <!--
 **kzaremski/kzaremski** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
