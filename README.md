@@ -1,6 +1,10 @@
 ### Hi there 👋
 
+- 🔭 I’m currently working on ...
+- 📫 You can reach me by email at <konstantin.zaremski@gmail.com> or on Telegram at <http://t.me/kzaremski>.
 - 🌱 I’m currently pursuing a Bachelor's degree in computer science.
+
+🇺🇦 Glory to Ukraine!
 
 <!--
 **kzaremski/kzaremski** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
