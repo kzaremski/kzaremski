@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/kzaremski/kzaremski/main/icosphere.gif" width="64" height="64"/>
+
 ### Hi there 👋
 
 - 🔭 I’m looking to work in a small team using modern technologies.
@@ -7,8 +9,6 @@
 - 🏠 Hometown: Kherson, Ukraine.
 
 🇺🇦 Glory to Ukraine!
-
-![Icosphere](https://raw.githubusercontent.com/kzaremski/kzaremski/main/icosphere.gif)
 
 <!--
 **kzaremski/kzaremski** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
