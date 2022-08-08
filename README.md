@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/kzaremski/kzaremski/main/icosphere.gif" width="64" height="64"/>
+<img src="https://raw.githubusercontent.com/kzaremski/kzaremski/main/icosphere.gif" width="100" height="100"/>
 
 ### Hi there 👋
 
