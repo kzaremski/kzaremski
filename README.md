@@ -8,6 +8,8 @@
 
 🇺🇦 Glory to Ukraine!
 
+![Icosphere]()
+
 <!--
 **kzaremski/kzaremski** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
