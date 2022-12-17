@@ -4,7 +4,7 @@
 
 - 🌱 I’m currently pursuing a Bachelor's degree in computer science.
 - 💼 Experience with JavaScript, TypeScript, ReactJS, Node.js, Java, Python, MongoDB, MySQL, PostgreSQL-->
-- 📫 You can reach me by email at <konstantin.zaremski@gmail.com> or on Telegram at <http://t.me/kzaremski>.
+- 📫 You can reach me through email at <konstantin.zaremski@gmail.com> or on Telegram at <http://t.me/kzaremski>.
 - 📍 Located in Denver, CO.
 - 🏠 Hometown: Kherson, Ukraine. 🇺🇦 Glory to Ukraine!
 
