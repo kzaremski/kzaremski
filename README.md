@@ -3,14 +3,12 @@
 ### Hi there 👋
 
 - 🌱 I’m currently pursuing a Bachelor's degree in computer science.
-<!-- - 🔭 I’m looking to work in a forward-thinking company using modern technologies.
 - 💼 Experience with JavaScript, TypeScript, ReactJS, Node.js, Java, Python, MongoDB, MySQL, PostgreSQL-->
 - 📫 You can reach me by email at <konstantin.zaremski@gmail.com> or on Telegram at <http://t.me/kzaremski>.
 - 📍 Located in Denver, CO.
-- 🏠 Hometown: Kherson, Ukraine.
+- 🏠 Hometown: Kherson, Ukraine. 🇺🇦 Glory to Ukraine!
 
-🇺🇦 Glory to Ukraine!
-
+<!-- - 🔭 I’m looking to work in a forward-thinking company using modern technologies.
 <!--
 **kzaremski/kzaremski** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
