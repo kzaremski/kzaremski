@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/kzaremski/kzaremski/main/icosphere.gif" width="125" height="125"/>
-
 ### Hi there 👋
 
 - 🌱 I’m currently pursuing a Bachelor's degree in computer science.
@@ -9,7 +7,7 @@
 - 🏠 Hometown: Kherson, Ukraine. 🇺🇦 Glory to Ukraine!
 
 <!-- - 🔭 I’m looking to work in a forward-thinking company using modern technologies.
-<!--
+<!-- <img src="https://raw.githubusercontent.com/kzaremski/kzaremski/main/icosphere.gif" width="125" height="125"/>
 **kzaremski/kzaremski** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
